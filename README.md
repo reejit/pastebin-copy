@@ -24,7 +24,7 @@ You can also manually make multiple API tokens using
   "token": "tokenname%2Canothertokenname%2Ctest"
 }
 ```
-You use "%2C" to sperate the variables. You might want to check out (w3schools)[https://www.w3schools.com/tags/ref_urlencode.ASP].
+You use "%2C" to sperate the variables. You might want to check out [w3schools](https://www.w3schools.com/tags/ref_urlencode.ASP).
 
 ## Using the API
 If you already have an admin API code, you can use the API to make tokens. 
