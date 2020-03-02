@@ -1,10 +1,11 @@
 const fs = require('fs'); // Loads the "fs" npm.
 const config = require("./config.json") // Loads the database
+const port = 80
 
 const express = require("express");
 const app = express();
 
-const listener = app.listen(process.env.PORT, function() {
+const listener = app.listen(port, function() {
   console.log("Your app is listening on port " + listener.address().port);
   configSave();
 });
