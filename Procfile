@@ -1,0 +1,1 @@
+worker: js server.js
